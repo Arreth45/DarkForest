@@ -14,7 +14,7 @@ module scenes{
             this.addChild(this._dragonImage);
             
             this._startOverButton = new objects.Button(
-                "Start Over",
+                "StartOverButton",
                 config.Screen.CENTER_X - 100,
                 config.Screen.CENTER_Y +100);
                 this.addChild(this._startOverButton);
