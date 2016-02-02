@@ -32,6 +32,7 @@ module scenes {
             // Switch to the INTRO Scene
             scene = config.Scene.INTRO;
             changeScene();
+            
         }
     }
 }

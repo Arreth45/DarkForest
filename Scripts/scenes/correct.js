@@ -25,9 +25,11 @@ var scenes;
         };
         Correct.prototype._sneakButtonClick = function (event) {
             scene = config.Scene.SNEAK;
+            changeScene();
         };
         Correct.prototype._fightButtonClick = function (event) {
             scene = config.Scene.FIGHT;
+            changeScene();
         };
         return Correct;
     })(objects.Scene);

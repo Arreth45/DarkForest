@@ -21,6 +21,7 @@ var riddle;
 var sneak;
 var west;
 var win;
+//orb boolean
 var orb = false;
 function init() {
     // create a reference the HTML canvas Element

@@ -31,6 +31,7 @@ module scenes{
         
         private _continueButtonClick(event: createjs.MouseEvent){
             scene = config.Scene.RIDDLE;
+            changeScene();
         }
        
     }

@@ -22,6 +22,7 @@ var scenes;
         };
         Sneak.prototype._continueButtonClick = function (event) {
             scene = config.Scene.RIDDLE;
+            changeScene();
         };
         return Sneak;
     })(objects.Scene);

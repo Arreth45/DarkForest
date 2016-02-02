@@ -39,7 +39,7 @@ module scenes {
 
         private _booksButtonClick(event: createjs.MouseEvent) {
             scene = config.Scene.CORRECT;
-            orb = true;
+            changeScene();
         }
 
         private _chickenButtonClick(event: createjs.MouseEvent) {

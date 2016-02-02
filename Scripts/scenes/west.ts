@@ -38,12 +38,14 @@ module scenes{
         }
         
         private _grabButtonClick(event: createjs.MouseEvent){
-            scene = config.Scene.GRAB;
             orb = true;
+            scene = config.Scene.GRAB;   
+            changeScene();      
         }
         
          private _dontButtonClick(event: createjs.MouseEvent){
             scene = config.Scene.DONT;
+            changeScene();
         }
     }
 }

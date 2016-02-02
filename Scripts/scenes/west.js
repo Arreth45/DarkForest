@@ -24,11 +24,13 @@ var scenes;
         West.prototype.update = function () {
         };
         West.prototype._grabButtonClick = function (event) {
-            scene = config.Scene.GRAB;
             orb = true;
+            scene = config.Scene.GRAB;
+            changeScene();
         };
         West.prototype._dontButtonClick = function (event) {
             scene = config.Scene.DONT;
+            changeScene();
         };
         return West;
     })(objects.Scene);

@@ -39,10 +39,12 @@ module scenes{
         
         private _sneakButtonClick(event: createjs.MouseEvent){
             scene = config.Scene.SNEAK;
+            changeScene();
         }
         
          private _fightButtonClick(event: createjs.MouseEvent){
             scene = config.Scene.FIGHT;
+            changeScene();
         }
     }
 }

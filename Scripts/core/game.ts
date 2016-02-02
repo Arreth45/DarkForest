@@ -24,6 +24,7 @@ var riddle: scenes.Riddle;
 var sneak: scenes.Sneak;
 var west: scenes.West;
 var win: scenes.Win;
+//orb boolean
 var orb: boolean = false;
 
 function init(): void {

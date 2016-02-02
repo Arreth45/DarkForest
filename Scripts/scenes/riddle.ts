@@ -44,10 +44,12 @@ module scenes {
             else {
                 scene = config.Scene.LOSS;
             }
+            changeScene();
         }
 
         private _eastButtonClick(event: createjs.MouseEvent) {
             scene = config.Scene.DRAGON;
+            changeScene();
         }
     }
 }

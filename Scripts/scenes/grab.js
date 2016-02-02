@@ -25,7 +25,7 @@ var scenes;
         };
         Grab.prototype._booksButtonClick = function (event) {
             scene = config.Scene.CORRECT;
-            orb = true;
+            changeScene();
         };
         Grab.prototype._chickenButtonClick = function (event) {
             scene = config.Scene.INCORRECT;

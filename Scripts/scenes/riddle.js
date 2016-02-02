@@ -30,9 +30,11 @@ var scenes;
             else {
                 scene = config.Scene.LOSS;
             }
+            changeScene();
         };
         Riddle.prototype._eastButtonClick = function (event) {
             scene = config.Scene.DRAGON;
+            changeScene();
         };
         return Riddle;
     })(objects.Scene);

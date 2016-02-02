@@ -22,7 +22,7 @@ var scenes;
         };
         Loss.prototype._startOverButtonClick = function (event) {
             scene = config.Scene.INTRO;
-            orb = true;
+            changeScene();
         };
         return Loss;
     })(objects.Scene);
