@@ -5,8 +5,20 @@ var config;
         function Scene() {
         }
         Scene.INTRO = 0;
-        Scene.LEFT_CAVE = 1;
-        Scene.RIGHT_CAVE = 2;
+        Scene.ENTER = 1;
+        Scene.LEAVE = 2;
+        Scene.WEST = 3;
+        Scene.EAST = 4;
+        Scene.GRAB = 5;
+        Scene.DONT = 6;
+        Scene.CORRECT = 7;
+        Scene.INCORRECT = 8;
+        Scene.SNEAK = 9;
+        Scene.FIGHT = 10;
+        Scene.RIDDLE = 11;
+        Scene.DRAGON = 12;
+        Scene.LOSS = 13;
+        Scene.WIN = 14;
         return Scene;
     })();
     config.Scene = Scene;

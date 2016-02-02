@@ -7,8 +7,21 @@ var currentScene;
 var scene;
 // Game Scenes
 var intro;
-var leftCave;
-var rightCave;
+var enter;
+var leave;
+var correct;
+var dont;
+var dragon;
+var east;
+var fight;
+var grab;
+var incorrect;
+var loss;
+var riddle;
+var sneak;
+var west;
+var win;
+var orb = false;
 function init() {
     // create a reference the HTML canvas Element
     canvas = document.getElementById("canvas");
@@ -51,25 +64,94 @@ function changeScene() {
     // Launch various scenes
     switch (scene) {
         case config.Scene.INTRO:
-            // show the MENU scene
             stage.removeAllChildren();
             intro = new scenes.Intro();
             currentScene = intro;
             console.log("Starting INTRO Scene");
             break;
-        case config.Scene.LEFT_CAVE:
-            // show the PLAY scene
+        case config.Scene.ENTER:
             stage.removeAllChildren();
-            leftCave = new scenes.LeftCave();
-            currentScene = leftCave;
-            console.log("Starting LEFT_CAVE Scene");
+            enter = new scenes.Enter();
+            currentScene = enter;
+            console.log("Starting ENTER Scene");
             break;
-        case config.Scene.RIGHT_CAVE:
-            // show the game OVER scene
+        case config.Scene.LEAVE:
             stage.removeAllChildren();
-            rightCave = new scenes.RightCave();
-            currentScene = rightCave;
-            console.log("Starting RIGHT_CAVE Scene");
+            leave = new scenes.Leave();
+            currentScene = leave;
+            console.log("Starting LEAVE Scene");
+            break;
+        case config.Scene.CORRECT:
+            stage.removeAllChildren();
+            correct = new scenes.Correct();
+            currentScene = correct;
+            console.log("Starting Correct Scene");
+            break;
+        case config.Scene.DONT:
+            stage.removeAllChildren();
+            dont = new scenes.Dont();
+            currentScene = dont;
+            console.log("Starting Dont Scene");
+            break;
+        case config.Scene.DRAGON:
+            stage.removeAllChildren();
+            dragon = new scenes.Dragon();
+            currentScene = dragon;
+            console.log("Starting Dragon Scene");
+            break;
+        case config.Scene.EAST:
+            stage.removeAllChildren();
+            east = new scenes.East();
+            currentScene = east;
+            console.log("Starting East Scene");
+            break;
+        case config.Scene.FIGHT:
+            stage.removeAllChildren();
+            fight = new scenes.Fight();
+            currentScene = fight;
+            console.log("Starting Fight Scene");
+            break;
+        case config.Scene.GRAB:
+            stage.removeAllChildren();
+            grab = new scenes.Grab();
+            currentScene = grab;
+            console.log("Starting Grab Scene");
+            break;
+        case config.Scene.INCORRECT:
+            stage.removeAllChildren();
+            incorrect = new scenes.Incorrect();
+            currentScene = incorrect;
+            console.log("Starting Incorrect Scene");
+            break;
+        case config.Scene.LOSS:
+            stage.removeAllChildren();
+            loss = new scenes.Loss();
+            currentScene = loss;
+            console.log("Starting Loss Scene");
+            break;
+        case config.Scene.RIDDLE:
+            stage.removeAllChildren();
+            riddle = new scenes.Riddle();
+            currentScene = riddle;
+            console.log("Starting Riddle Scene");
+            break;
+        case config.Scene.SNEAK:
+            stage.removeAllChildren();
+            sneak = new scenes.Sneak();
+            currentScene = sneak;
+            console.log("Starting sneak Scene");
+            break;
+        case config.Scene.WEST:
+            stage.removeAllChildren();
+            west = new scenes.West();
+            currentScene = west;
+            console.log("Starting west Scene");
+            break;
+        case config.Scene.WIN:
+            stage.removeAllChildren();
+            win = new scenes.Win();
+            currentScene = win;
+            console.log("Starting Win Scene");
             break;
     }
     console.log(currentScene.numChildren);
