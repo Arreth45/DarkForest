@@ -15,7 +15,7 @@ module scenes{
             this.addChild(this._westImage);
             
             this._grabButton = new objects.Button(
-                "Grab the Orb",
+                "Grab",
                 config.Screen.CENTER_X - 100,
                 config.Screen.CENTER_Y +100);
                 this.addChild(this._grabButton);
@@ -23,7 +23,7 @@ module scenes{
                 this._grabButton.on("click",this._grabButtonClick,this);
                 
                 this._dontButton = new objects.Button(
-                "Don't grab the Orb",
+                "Dont",
                 config.Screen.CENTER_X - 100,
                 config.Screen.CENTER_Y +100);
                 this.addChild(this._dontButton);

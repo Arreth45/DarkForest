@@ -15,7 +15,7 @@ module scenes{
             this.addChild(this._correctImage);
             
             this._sneakButton = new objects.Button(
-                "Sneak by",
+                "Sneak",
                 config.Screen.CENTER_X - 100,
                 config.Screen.CENTER_Y +100);
                 this.addChild(this._sneakButton);
@@ -23,7 +23,7 @@ module scenes{
                 this._sneakButton.on("click",this._sneakButtonClick,this);
                 
                 this._sneakButton = new objects.Button(
-                "Charge the Outpost",
+                "Fight"
                 config.Screen.CENTER_X - 100,
                 config.Screen.CENTER_Y +100);
                 this.addChild(this._fightButton);
