@@ -16,7 +16,7 @@ var scenes;
             this._booksButton = new objects.Button("Books", config.Screen.CENTER_X - 100, config.Screen.CENTER_Y + 180);
             this.addChild(this._booksButton);
             this._booksButton.on("click", this._booksButtonClick, this);
-            this._booksButton = new objects.Button("Chicken", config.Screen.CENTER_X + 100, config.Screen.CENTER_Y + 180);
+            this._chickenButton = new objects.Button("Chicken", config.Screen.CENTER_X + 100, config.Screen.CENTER_Y + 180);
             this.addChild(this._chickenButton);
             this._chickenButton.on("click", this._chickenButtonClick, this);
             stage.addChild(this);

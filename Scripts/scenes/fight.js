@@ -22,7 +22,6 @@ var scenes;
         };
         Fight.prototype._startOverButtonClick = function (event) {
             scene = config.Scene.INTRO;
-            orb = true;
             changeScene();
         };
         return Fight;

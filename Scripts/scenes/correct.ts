@@ -22,7 +22,7 @@ module scenes{
                 
                 this._sneakButton.on("click",this._sneakButtonClick,this);
                 
-                this._sneakButton = new objects.Button(
+                this._fightButton = new objects.Button(
                 "Fight",
                 config.Screen.CENTER_X + 100,
                 config.Screen.CENTER_Y + 180);

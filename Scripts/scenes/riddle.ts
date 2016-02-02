@@ -38,13 +38,15 @@ module scenes {
         }
 
         private _westButtonClick(event: createjs.MouseEvent) {
-            if (orb) {
+            if (orb = true) {
                 scene = config.Scene.WIN;
+                changeScene();
             }
             else {
                 scene = config.Scene.LOSS;
+                changeScene();
             }
-            changeScene();
+            
         }
 
         private _eastButtonClick(event: createjs.MouseEvent) {

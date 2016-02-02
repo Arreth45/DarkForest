@@ -30,7 +30,6 @@ module scenes{
         
         private _startOverButtonClick(event: createjs.MouseEvent){
             scene = config.Scene.INTRO;
-            orb = true;
             changeScene();
         }
         

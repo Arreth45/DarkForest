@@ -25,7 +25,6 @@ var scenes;
         };
         Dont.prototype._booksButtonClick = function (event) {
             scene = config.Scene.CORRECT;
-            orb = true;
             changeScene();
         };
         Dont.prototype._chickenButtonClick = function (event) {

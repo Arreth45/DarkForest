@@ -22,7 +22,7 @@ module scenes {
 
             this._booksButton.on("click", this._booksButtonClick, this);
 
-            this._booksButton = new objects.Button(
+            this._chickenButton = new objects.Button(
                 "Chicken",
                 config.Screen.CENTER_X + 100,
                 config.Screen.CENTER_Y + 180);

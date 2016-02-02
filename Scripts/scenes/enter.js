@@ -24,7 +24,7 @@ var scenes;
             // START_OVER Button event listener
             this._westButton.on("click", this._westButtonClick, this);
             this._eastButton = new objects.Button("East", config.Screen.CENTER_X + 100, config.Screen.CENTER_Y + 180);
-            this.addChild(this._westButton);
+            this.addChild(this._eastButton);
             // START_OVER Button event listener
             this._eastButton.on("click", this._eastButtonClick, this);
             // add this scene to the global stage container

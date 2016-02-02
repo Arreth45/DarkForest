@@ -22,6 +22,7 @@ var scenes;
         };
         Win.prototype._startOverButtonClick = function (event) {
             scene = config.Scene.INTRO;
+            orb = false;
             changeScene();
         };
         return Win;

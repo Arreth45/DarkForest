@@ -24,13 +24,14 @@ var scenes;
         Riddle.prototype.update = function () {
         };
         Riddle.prototype._westButtonClick = function (event) {
-            if (orb) {
+            if (orb = true) {
                 scene = config.Scene.WIN;
+                changeScene();
             }
             else {
                 scene = config.Scene.LOSS;
+                changeScene();
             }
-            changeScene();
         };
         Riddle.prototype._eastButtonClick = function (event) {
             scene = config.Scene.DRAGON;
