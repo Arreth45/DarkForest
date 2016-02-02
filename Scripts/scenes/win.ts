@@ -15,8 +15,8 @@ module scenes{
             
             this._startOverButton = new objects.Button(
                 "StartOverButton",
-                config.Screen.CENTER_X - 100,
-                config.Screen.CENTER_Y +100);
+                config.Screen.CENTER_X,
+                config.Screen.CENTER_Y +180);
                 this.addChild(this._startOverButton);
                 
                 this._startOverButton.on("click",this._startOverButtonClick,this);

@@ -17,15 +17,15 @@ module scenes{
             this._sneakButton = new objects.Button(
                 "Sneak",
                 config.Screen.CENTER_X - 100,
-                config.Screen.CENTER_Y +100);
+                config.Screen.CENTER_Y + 180);
                 this.addChild(this._sneakButton);
                 
                 this._sneakButton.on("click",this._sneakButtonClick,this);
                 
                 this._sneakButton = new objects.Button(
-                "Fight"
-                config.Screen.CENTER_X - 100,
-                config.Screen.CENTER_Y +100);
+                "Fight",
+                config.Screen.CENTER_X + 100,
+                config.Screen.CENTER_Y + 180);
                 this.addChild(this._fightButton);
                 
                 this._fightButton.on("click",this._fightButtonClick,this);

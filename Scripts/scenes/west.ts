@@ -17,15 +17,15 @@ module scenes{
             this._grabButton = new objects.Button(
                 "Grab",
                 config.Screen.CENTER_X - 100,
-                config.Screen.CENTER_Y +100);
+                config.Screen.CENTER_Y +180);
                 this.addChild(this._grabButton);
                 
                 this._grabButton.on("click",this._grabButtonClick,this);
                 
                 this._dontButton = new objects.Button(
                 "Dont",
-                config.Screen.CENTER_X - 100,
-                config.Screen.CENTER_Y +100);
+                config.Screen.CENTER_X + 100,
+                config.Screen.CENTER_Y + 180);
                 this.addChild(this._dontButton);
                 
                 this._dontButton.on("click",this._dontButtonClick,this);

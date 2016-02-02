@@ -13,7 +13,7 @@ var scenes;
         Sneak.prototype.start = function () {
             this._sneakImage = new createjs.Bitmap("../../Assets/images/SneakScene.png");
             this.addChild(this._sneakImage);
-            this._continueButton = new objects.Button("Continue", config.Screen.CENTER_X - 100, config.Screen.CENTER_Y + 100);
+            this._continueButton = new objects.Button("Continue", config.Screen.CENTER_X, config.Screen.CENTER_Y + 180);
             this.addChild(this._continueButton);
             this._continueButton.on("click", this._continueButtonClick, this);
             stage.addChild(this);

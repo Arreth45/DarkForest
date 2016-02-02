@@ -15,8 +15,8 @@ module scenes{
             
             this._continueButton = new objects.Button(
                 "Continue",
-                config.Screen.CENTER_X - 100,
-                config.Screen.CENTER_Y +100);
+                config.Screen.CENTER_X,
+                config.Screen.CENTER_Y + 180);
                 this.addChild(this._continueButton);
                 
                 this._continueButton.on("click",this._continueButtonClick,this);

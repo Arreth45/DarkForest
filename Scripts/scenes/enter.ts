@@ -22,7 +22,7 @@ module scenes {
             // add the BACK button to the OVER scene
             this._westButton = new objects.Button(
                 "West",
-                config.Screen.CENTER_X,
+                config.Screen.CENTER_X - 100,
                 config.Screen.CENTER_Y + 180);
             this.addChild(this._westButton);
            
@@ -31,7 +31,7 @@ module scenes {
             
              this._eastButton = new objects.Button(
                 "East",
-                config.Screen.CENTER_X,
+                config.Screen.CENTER_X + 100,
                 config.Screen.CENTER_Y + 180);
             this.addChild(this._westButton);
            

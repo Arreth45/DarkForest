@@ -13,10 +13,10 @@ var scenes;
         West.prototype.start = function () {
             this._westImage = new createjs.Bitmap("../../Assets/images/WestScene.png");
             this.addChild(this._westImage);
-            this._grabButton = new objects.Button("Grab", config.Screen.CENTER_X - 100, config.Screen.CENTER_Y + 100);
+            this._grabButton = new objects.Button("Grab", config.Screen.CENTER_X - 100, config.Screen.CENTER_Y + 180);
             this.addChild(this._grabButton);
             this._grabButton.on("click", this._grabButtonClick, this);
-            this._dontButton = new objects.Button("Dont", config.Screen.CENTER_X - 100, config.Screen.CENTER_Y + 100);
+            this._dontButton = new objects.Button("Dont", config.Screen.CENTER_X + 100, config.Screen.CENTER_Y + 180);
             this.addChild(this._dontButton);
             this._dontButton.on("click", this._dontButtonClick, this);
             stage.addChild(this);

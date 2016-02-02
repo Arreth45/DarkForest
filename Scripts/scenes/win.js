@@ -13,7 +13,7 @@ var scenes;
         Win.prototype.start = function () {
             this._winImage = new createjs.Bitmap("../../Assets/images/WinScene.png");
             this.addChild(this._winImage);
-            this._startOverButton = new objects.Button("StartOverButton", config.Screen.CENTER_X - 100, config.Screen.CENTER_Y + 100);
+            this._startOverButton = new objects.Button("StartOverButton", config.Screen.CENTER_X, config.Screen.CENTER_Y + 180);
             this.addChild(this._startOverButton);
             this._startOverButton.on("click", this._startOverButtonClick, this);
             stage.addChild(this);
