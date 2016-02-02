@@ -11,7 +11,7 @@ module scenes{
         }
         
         public start(): void{
-            this._correctImage = new createjs.Bitmap("../../Assets/images/Correct.png");
+            this._correctImage = new createjs.Bitmap("../../Assets/images/CorrectScene.png");
             this.addChild(this._correctImage);
             
             this._sneakButton = new objects.Button(

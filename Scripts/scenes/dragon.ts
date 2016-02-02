@@ -10,7 +10,7 @@ module scenes{
         }
         
         public start(): void{
-            this._dragonImage = new createjs.Bitmap("../../Assets/images/Dragon.png");
+            this._dragonImage = new createjs.Bitmap("../../Assets/images/DragonScene.png");
             this.addChild(this._dragonImage);
             
             this._startOverButton = new objects.Button(

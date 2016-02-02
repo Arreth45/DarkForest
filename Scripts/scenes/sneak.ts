@@ -10,7 +10,7 @@ module scenes{
         }
         
         public start(): void{
-            this._sneakImage = new createjs.Bitmap("../../Assets/images/Sneak.png");
+            this._sneakImage = new createjs.Bitmap("../../Assets/images/SneakScene.png");
             this.addChild(this._sneakImage);
             
             this._continueButton = new objects.Button(

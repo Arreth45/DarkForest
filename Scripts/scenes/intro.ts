@@ -16,7 +16,7 @@ module scenes {
         // Start Method
         public start(): void {
             // add Intro Image
-            this._introImage = new createjs.Bitmap("../../Assets/images/IntroCave.png");
+            this._introImage = new createjs.Bitmap("../../Assets/images/Intro.png");
             this.addChild(this._introImage);
             
             // add the LEFT_CAVE button to the MENU scene

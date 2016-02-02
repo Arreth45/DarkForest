@@ -10,7 +10,7 @@ module scenes{
         }
         
         public start(): void{
-            this._incorrectImage = new createjs.Bitmap("../../Assets/images/Incorrect.png");
+            this._incorrectImage = new createjs.Bitmap("../../Assets/images/IncorrectScene.png");
             this.addChild(this._incorrectImage);
             
             this._startOverButton = new objects.Button(

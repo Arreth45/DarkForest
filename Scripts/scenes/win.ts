@@ -10,7 +10,7 @@ module scenes{
         }
         
         public start(): void{
-            this._winImage = new createjs.Bitmap("../../Assets/images/Win.png");
+            this._winImage = new createjs.Bitmap("../../Assets/images/WinScene.png");
             this.addChild(this._winImage);
             
             this._startOverButton = new objects.Button(

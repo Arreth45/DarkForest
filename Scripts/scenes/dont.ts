@@ -11,7 +11,7 @@ module scenes{
         }
         
         public start(): void{
-            this._dontImage = new createjs.Bitmap("../../Assets/images/Dont.png");
+            this._dontImage = new createjs.Bitmap("../../Assets/images/DontScene.png");
             this.addChild(this._dontImage);
             
             this._booksButton = new objects.Button(

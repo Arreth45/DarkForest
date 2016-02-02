@@ -11,7 +11,7 @@ module scenes {
         }
 
         public start(): void {
-            this._grabImage = new createjs.Bitmap("../../Assets/images/Grab.png");
+            this._grabImage = new createjs.Bitmap("../../Assets/images/GrabScene.png");
             this.addChild(this._grabImage);
 
             this._booksButton = new objects.Button(

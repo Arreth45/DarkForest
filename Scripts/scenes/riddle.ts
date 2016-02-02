@@ -11,7 +11,7 @@ module scenes {
         }
 
         public start(): void {
-            this._riddleImage = new createjs.Bitmap("../../Assets/images/Riddle.png");
+            this._riddleImage = new createjs.Bitmap("../../Assets/images/RiddleScene.png");
             this.addChild(this._riddleImage);
 
             this._westButton = new objects.Button(

@@ -10,7 +10,7 @@ module scenes{
         }
         
         public start(): void{
-            this._fightImage = new createjs.Bitmap("../../Assets/images/Fight.png");
+            this._fightImage = new createjs.Bitmap("../../Assets/images/FightScene.png");
             this.addChild(this._fightImage);
             
             this._startOverButton = new objects.Button(

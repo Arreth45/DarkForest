@@ -10,7 +10,7 @@ module scenes{
         }
         
         public start(): void{
-            this._lossImage = new createjs.Bitmap("../../Assets/images/Loss.png");
+            this._lossImage = new createjs.Bitmap("../../Assets/images/LossScene.png");
             this.addChild(this._lossImage);
             
             this._startOverButton = new objects.Button(

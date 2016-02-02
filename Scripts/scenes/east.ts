@@ -9,7 +9,7 @@ module scenes {
         }
 
         public start(): void {
-            this._eastImage = new createjs.Bitmap("../../Assets/images/East.png");
+            this._eastImage = new createjs.Bitmap("../../Assets/images/EastScene.png");
             this.addChild(this._eastImage);
 
             this._startOverButton = new objects.Button(

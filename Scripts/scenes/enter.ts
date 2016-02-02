@@ -16,7 +16,7 @@ module scenes {
         // Start Method
         public start(): void {
             // add Enter Image
-            this._enterImage = new createjs.Bitmap("../../Assets/images/Enter.png");
+            this._enterImage = new createjs.Bitmap("../../Assets/images/EnterScene.png");
             this.addChild(this._enterImage);
 
             // add the BACK button to the OVER scene
